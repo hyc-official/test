@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>${siteName}</title>
+        <!-- <style>${style}</style> -->
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div id="bar" class="bar">
+            <a href="/">${siteName}</a>
+            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+            <a href="/">首页</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="/${postURL}">文章</a>
+        </div>
+        <div style="height: 1em; width: 100%"></div>
+        <div id="desc" class="left">
+            <center>
+                <h2>${siteName}</h2>
+                <p>${siteDesc}</p>
+            </center>
+        </div>
+        <div id="main" class="right">
+            <center><h1>首页</h1></center>
+            %POSTS%
+        </div>
+    </body>
+</html>
+
+<!-- Block HTML -->
+<div></div>

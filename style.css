@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+    color: #55c8fb;
+}
+.bar {
+    height: 2em;
+    padding: 1em;
+    width: calc(100% - 2em);
+    border-bottom: 2px solid #bfbfbf;
+}
+.left {
+    width: calc(20% - 8px);
+    margin: 2px;
+    border: 2px solid #dfdfdf;
+    border-radius: 5px;
+    /* padding: 5px; */
+    float: left;
+}
+.right {
+    width: calc(80% - 8px);
+    margin: 2px;
+    border: 2px solid #dfdfdf;
+    border-radius: 5px;
+    /* padding: 5px; */
+    float: left;
+}
+.block {
+
+}
